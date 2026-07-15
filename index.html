@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovaCatch Browser Extension Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy policy for the NovaCatch browser extension."
+    >
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f9ff;
+        --card: rgba(255, 255, 255, 0.92);
+        --text: #111827;
+        --muted: #526071;
+        --border: rgba(37, 99, 235, 0.16);
+        --brand: #2563eb;
+        --brand-2: #06b6d4;
+        --shadow: 0 24px 80px rgba(15, 23, 42, 0.12);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #08111f;
+          --card: rgba(15, 23, 42, 0.9);
+          --text: #f8fafc;
+          --muted: #b6c2d2;
+          --border: rgba(56, 189, 248, 0.2);
+          --shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(6, 182, 212, 0.18), transparent 34rem),
+          radial-gradient(circle at top right, rgba(124, 58, 237, 0.15), transparent 32rem),
+          var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.72;
+      }
+
+      main {
+        width: min(960px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+
+      .hero,
+      section {
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        background: var(--card);
+        box-shadow: var(--shadow);
+      }
+
+      .hero {
+        padding: 44px;
+      }
+
+      section {
+        margin-top: 18px;
+        padding: 34px;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border-radius: 999px;
+        padding: 8px 14px;
+        background: linear-gradient(135deg, rgba(37, 99, 235, 0.14), rgba(6, 182, 212, 0.14));
+        color: var(--brand);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3 {
+        line-height: 1.18;
+      }
+
+      h1 {
+        margin: 22px 0 16px;
+        font-size: clamp(34px, 6vw, 64px);
+        letter-spacing: -0.055em;
+      }
+
+      h2 {
+        margin: 0 0 16px;
+        font-size: clamp(24px, 3vw, 34px);
+        letter-spacing: -0.035em;
+      }
+
+      h3 {
+        margin: 28px 0 10px;
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      ul {
+        padding-left: 1.25rem;
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      a {
+        color: var(--brand);
+      }
+
+      .lead {
+        max-width: 760px;
+        font-size: 20px;
+      }
+
+      .meta {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin-top: 28px;
+      }
+
+      .meta div {
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 16px;
+        background: rgba(37, 99, 235, 0.05);
+      }
+
+      .meta span {
+        display: block;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .meta strong {
+        display: block;
+        margin-top: 6px;
+        font-size: 16px;
+      }
+
+      .language-note {
+        margin-top: 28px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <span class="badge">NovaCatch Privacy</span>
+        <h1>NovaCatch Browser Extension Privacy Policy</h1>
+        <p class="lead">
+          NovaCatch is a local browser resource detection extension. It helps users identify
+          downloadable resources on pages they visit and send selected resources to the
+          NovaCatch desktop application running on the same computer.
+        </p>
+        <div class="meta" aria-label="Policy metadata">
+          <div>
+            <span>Effective date</span>
+            <strong>July 15, 2026</strong>
+          </div>
+          <div>
+            <span>Applies to</span>
+            <strong>NovaCatch Browser Extension</strong>
+          </div>
+          <div>
+            <span>Data destination</span>
+            <strong>Local browser storage and local desktop app</strong>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h2>English</h2>
+
+        <h3>Single purpose</h3>
+        <p>
+          NovaCatch detects downloadable resources on user-visited pages and lets the user
+          send selected resources or user-clicked browser download links to the local
+          NovaCatch desktop application.
+        </p>
+
+        <h3>Data processed by the extension</h3>
+        <p>The extension may process the following data to provide its single purpose:</p>
+        <ul>
+          <li>Page URLs and downloadable resource URLs.</li>
+          <li>Resource type, file extension, MIME type, file size, filename candidate, source page, and tab metadata.</li>
+          <li>Request metadata such as Content-Type, Content-Length, and Content-Disposition.</li>
+          <li>Limited request headers needed for a user-authorized local download, such as Referer, Origin, and Cookie when required by the source site.</li>
+          <li>Extension settings, blocked-site rules, whitelist rules, Feishu/Lark sniffing settings, and short-lived per-tab resource lists.</li>
+        </ul>
+
+        <h3>How data is stored and transmitted</h3>
+        <p>
+          NovaCatch stores extension settings and short-lived resource lists in Chrome
+          extension storage on the user's device. When the user sends a resource to the
+          desktop app, or when browser-download capture is enabled, the extension transmits
+          the selected download URL and required metadata to the local NovaCatch desktop
+          endpoint at <strong>localhost:15151</strong>.
+        </p>
+
+        <h3>No sale, advertising, or cloud tracking</h3>
+        <ul>
+          <li>NovaCatch does not sell user data.</li>
+          <li>NovaCatch does not use user data for advertising.</li>
+          <li>NovaCatch does not send browsing history or resource URLs to a NovaCatch cloud service.</li>
+          <li>NovaCatch does not transfer user data for purposes unrelated to the extension's single purpose.</li>
+        </ul>
+
+        <h3>User controls</h3>
+        <p>Users can control the extension's behavior by using the extension settings:</p>
+        <ul>
+          <li>Disable browser-download capture.</li>
+          <li>Configure blocked sites or whitelist mode.</li>
+          <li>Disable Feishu/Lark document sniffing.</li>
+          <li>Clear captured resource data from the extension UI.</li>
+        </ul>
+
+        <h3>Legal and site-permission boundary</h3>
+        <p>
+          NovaCatch is intended only for downloading resources that the user owns, controls,
+          or is authorized to download. It must not be used to bypass DRM, paywalls, account
+          permissions, site download/export permissions, or copyright restrictions.
+        </p>
+
+        <h3>Contact</h3>
+        <p>
+          For privacy questions, use the support contact or support page listed in the
+          NovaCatch Chrome Web Store listing.
+        </p>
+      </section>
+
+      <section lang="zh-CN">
+        <h2>中文</h2>
+
+        <h3>单一用途</h3>
+        <p>
+          NovaCatch 的单一用途是识别用户当前访问网页中的可下载资源，并将用户选择的资源或用户点击的下载链接发送到本机运行的 NovaCatch 桌面客户端。
+        </p>
+
+        <h3>扩展会处理的数据</h3>
+        <p>为实现上述单一用途，扩展可能会处理以下数据：</p>
+        <ul>
+          <li>页面 URL 和可下载资源 URL。</li>
+          <li>资源类型、文件扩展名、MIME 类型、文件大小、候选文件名、来源页面和标签页元数据。</li>
+          <li>Content-Type、Content-Length、Content-Disposition 等响应元数据。</li>
+          <li>用户授权下载所需的有限请求头，例如来源网站要求的 Referer、Origin 和 Cookie。</li>
+          <li>扩展设置、站点屏蔽规则、白名单规则、飞书/Lark 嗅探设置和短期的按标签页资源列表。</li>
+        </ul>
+
+        <h3>数据如何存储和传输</h3>
+        <p>
+          NovaCatch 会把扩展设置和短期资源列表保存在用户设备上的 Chrome 扩展本地存储中。当用户主动发送资源，或启用浏览器下载接管功能时，扩展会把选中的下载 URL 和必要元数据发送到本机 NovaCatch 桌面客户端的本地端点 <strong>localhost:15151</strong>。
+        </p>
+
+        <h3>不出售、不广告、不云端跟踪</h3>
+        <ul>
+          <li>NovaCatch 不出售用户数据。</li>
+          <li>NovaCatch 不将用户数据用于广告。</li>
+          <li>NovaCatch 不会把浏览历史或资源 URL 发送到 NovaCatch 云服务器。</li>
+          <li>NovaCatch 不会为了与扩展单一用途无关的目的转移用户数据。</li>
+        </ul>
+
+        <h3>用户控制</h3>
+        <p>用户可以在扩展设置中控制以下行为：</p>
+        <ul>
+          <li>关闭浏览器下载接管。</li>
+          <li>配置站点屏蔽规则或白名单模式。</li>
+          <li>关闭飞书/Lark 文档嗅探。</li>
+          <li>在扩展界面中清理已捕获的资源数据。</li>
+        </ul>
+
+        <h3>法律与网站权限边界</h3>
+        <p>
+          NovaCatch 仅用于下载用户拥有、控制或被授权下载的资源。NovaCatch 不应用于绕过 DRM、付费墙、账号权限、网站下载/导出权限或版权限制。
+        </p>
+
+        <h3>联系</h3>
+        <p>
+          如有隐私相关问题，请使用 NovaCatch Chrome Web Store 商品详情中提供的支持联系方式或支持页面。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
