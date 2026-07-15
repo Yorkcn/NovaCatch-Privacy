@@ -2,7 +2,7 @@
 
 This repository hosts the public privacy policy page for the NovaCatch browser extension.
 
-The Chrome Web Store privacy policy URL should point to the GitHub Pages URL for this repository, for example:
+The Chrome Web Store privacy policy URL should point to the GitHub Pages URL for this repository:
 
 ```text
 https://yorkcn.github.io/NovaCatch-Privacy/
